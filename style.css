@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:2rem;
+}
+nav {
+    background-color: antiquewhite;
+    margin-bottom: 2rem;
+    padding:2rem;
+}
+
+a {
+    padding:1rem 2rem;
+    background-color: brown;
+    color:whitesmoke;
+    text-decoration: none;
+    
+}
+p{
+    width: 50ch;
+    line-height: 1.6;
+}
+/** Beholder formatering eks linjeskift /n osv.../ */
+#oppgave1 {
+    white-space: pre-line;
+}
+
+.svar-p {  
+    white-space: pre-line;
+    font-weight: bold;
+    padding:1rem;
+    background-color:bisque;
+    
+}
+
+
+
+.svar {
+    display:grid;
+    gap:1rem;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: lightgrey;
+    padding:1rem;
+}
+.svar div {
+    background-color: antiquewhite;
+    padding:1rem;
+    font-weight: bold;
+}
+h3 {
+    background-color: antiquewhite;
+    padding:1rem;
+    font-weight: 200;
+}
