@@ -1,4 +1,4 @@
-// ------------- UKE 1 ------------------
+// ------------- UKE 3 ------------------
 // // oppgave 1
 const oppgave1 = document.querySelector('.uke01-oppgave01');
 const oppgave2 = document.querySelector('.oppgave2');
